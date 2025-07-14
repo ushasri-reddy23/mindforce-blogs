@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+:root{
+    --blue: #287bff;
+    --white: #fff;
+    --grey: #f5f5f5; 
+    --black1: #222;
+    --black2: #999;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.admin-btn{
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    background-color: blueviolet;
+    border-radius: 2px;
+    color: white;
+}
+.admin-btn:hover{
+    background-color: rgb(97, 3, 185);
+    cursor: pointer;
+}
+
+/*************** MAIN SECTION ***********************/
+.main{
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    min-height: 100vh;
+    background: var(--white);
+    transition: 0.5s;
+}
+.main.active{
+    width: calc(100% - 80px);
+    width: 80px;
+}
+
+/******************* TOP SEARCH BAR ********************/
+.topbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 100px;
+}
+.name{
+    margin: 10px;
+    font-size: 20px;
+}
+.user{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 10px;
+}
+.user img{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/************** ADMIN CONTENT ********************/
+.admin-content{
+    position: relative;
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+}
+.admin-content .page-title{
+    text-align: center;
+    margin: 28px;
+    font-size: 30px;
+}
+.admin-content table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+.admin-content .button-group .home{
+    float: right;
+    width: 121px;
+    margin-top: -20px;
+}
+th, td{
+    padding: 15px;
+    text-align: left;
+    border-bottom:  1px solid lightgrey;
+}
+.admin-content table img{
+    width: 100px;
+    height: 100px;
+}
+.edit{
+    color: green;
+}
+.delete{
+    color: red;
+}   
+.publish{
+    color: blue;
+}
+.edit:hover,
+.delete:hover,
+.publish:hover{
+    text-decoration: underline;
+}
+
+/***************** CREATE POSTS ********************/
+.admin-content .content .btn-blg{
+    border: none;
+}
+.admin-content .content form div{
+    margin-bottom: 30px;
+}
+.admin-content .content form label{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.admin-content .content form input{
+    padding: 10px;
+    width: 100%;
+} 
+.admin-content .content form select{
+    padding: 8px;
+    width: 100%;
+}
+
+.message{
+    width: 100%;
+    padding: 8px;
+    background-color: red;
+    color: #fff;
+    margin-bottom: 8px;
+    text-align: center;
+}
