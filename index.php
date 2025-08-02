@@ -28,11 +28,12 @@
     <!------------------------ NAVBAR Section ------------------------>
     <nav class="navbar">
         <div class="logo">
-            <img src="./images/Gemini_Generated_Image_god1wigod1wigod1.png">
+            <h2>MindForce-Blogs</h2>
             
 
         </div>
-</div>
+
+
 
         <div class="menu_open">
             <i class="fas fa-bars"></i>
@@ -40,6 +41,8 @@
         </div>
 
         <ul class="links">
+            
+            
             <div class="menu_close">
                 <i class="fas fa-times"></i>
             </div>
@@ -61,36 +64,33 @@
         </ul>
         
     </nav>
+            
 
     <!------------------------ BANNER Section ------------------------>
     <div class="slide-container">
         <div class="slide">
-            <img src="./images/s-1.jpg" alt="">
-            <div class="caption">Artificial Intelligence</div>
+            <img src="./images/Screenshot 2025-07-24 135650.png" alt="">
+            <div class="caption">QUICK THINKING</div>
 
         </div>
 
         <div class="slide">
-            <img src="./images/s-2.jpg" alt="">
-            <div class="caption">Mental Wellness</div>
+            <img src="./images/Screenshot 2025-07-24 140224.png" alt="">
+            <div class="caption">LOGICAL REASONING</div>
 
         </div>
 
         <div class="slide">
-            <img src="./images/s-3.webp" alt="">
-            <div class="caption">Healthy Cooking and Clean Eating</div>
+            <img src="./images/Screenshot 2025-07-24 140454.png" alt="">
+            <div class="caption">MEMORY POWER</div>
         </div>
 
+        
         <div class="slide">
-            <img src="./images/s-4.webp" alt="">
-            <div class="caption">Stress Free Education </div>
+            <img src="./images/Screenshot 2025-07-24 140559.png" alt="">
+            <div class="caption">EMOTIONAL CONTROL</div>
 
-        </div>
-        <div class="slide">
-            <img src="./images/s-5.webp" alt="">
-            <div class="caption">Passion To travel</div>
-
-        </div>
+        </div>   
         
 
         <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
@@ -110,10 +110,7 @@
         <h1>About <span>Me</span></h1>
         <h2>Exploring India, One Iconic Place at a Time</h2>
         <p>Heyy! I’m Ushasri.
-This space is my way of sharing the five essentials I believe shape a better life — smart tech, mental wellness, clean nourishment, soulful travel, and focused learning. Every post here reflects real, everyday choices that help us grow, feel better, and live with intention. Simple, powerful, and personal — that’s what this blog is all about. Let’s explore life, one essential at a time.
-
-
-        <a href="#contact" class="btn">Read More</a>
+This is a 4player mental strength game I created with passion , where each team has one member representing a core skill: Quick Thinking, Logical Reasoning, Creativity, and Emotional Control. Players face challenges based on their strongest trait, and teams must work together using each mind’s unique power. As someone deeply committed to mental growth, I designed this game to turn focus, self-awareness, and resilience into something fun, challenging, and meaningful. For me, it’s not just a game .it’s a reflection of who I am and what I believe in.        <a href="#contact" class="btn">Read More</a>
       </div>
     </div>
   </section>
@@ -163,7 +160,7 @@ This space is my way of sharing the five essentials I believe shape a better lif
     </div>
 
     <!------------------------ FOOTER Section ------------------------>
-    <<footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="row">
 

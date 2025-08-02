@@ -15,7 +15,7 @@ body{
 /***************** NAVBAR SECTION *****************/
 nav.navbar{
     display: flex;
-    background-color: darkcyan;
+    background-color: black;
     height: 100px;
     width: 100%;
     justify-content: space-between;
@@ -23,13 +23,15 @@ nav.navbar{
     position: fixed;
     z-index: 1;
 }
-.navbar .logo span{
-    font-size: 50px;
+.navbar .logo  h2{
+    font-size: 35px;
     color: #fff;
     line-height: 100px;
     margin-left: 100px;
+    white-space: nowrap;
+    padding-right: 50px;
 }
-.navbar .logo{
+.navbar .logo {
     width: 250px;
     height: auto;
     display: flex;
@@ -80,7 +82,7 @@ nav.navbar{
     .navbar ul.links{
         display: none;
         position: fixed;
-        background-color: darkcyan;
+        background-color: black;                             
         top: 0;
         right: -500px;
         height: 100%;
@@ -175,8 +177,8 @@ body {
 .square {
   width: 300px;
   height: 300px; /* changed from 340px for perfect square */
-  background-color: darkcyan;
-  border: 5px solid darkcyan;
+  background-color:black;
+  border: 5px solid black;
   box-shadow: 0 0 20px #343434;
   overflow: hidden;
   transition: transform 0.3s ease;
@@ -195,7 +197,7 @@ body {
 
 .square:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 30px darkcyan;
+  box-shadow: 0 0 30px black;
 } 
 
 /* Right Side Content */
@@ -219,7 +221,7 @@ body {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 25px;
-  color: darkcyan;
+  color: blck;
 }
 
 .about-right p {
@@ -231,7 +233,7 @@ body {
 
 /* Code skill badges */
 .code-skill {
-  background-color: darkcyan;
+  background-color: black;
   color: #fff;
   padding: 4px 10px;
   border-radius: 5px;
@@ -260,13 +262,13 @@ body {
 }
 
 .btn {
-  background-color: darkcyan;
+  background-color: black;
   color: #fff;
   border: 2px solid #71706f;
 }
 
 .btn:hover {
-  background-color: rgb(9, 247, 247);
+  background-color: rgb(59, 58, 58);
   color: whitesmoke;
   transform: scale(1.03);
 }
@@ -278,8 +280,8 @@ body {
 }
 
 .btn-glow:hover {
-  background-color: rgb(10, 234, 234);
-  box-shadow: 0 0 25px rgb(10, 246, 246);
+  background-color: black;
+  box-shadow: 0 0 25px black;
   transform: scale(1.05);
 } 
 
@@ -353,7 +355,7 @@ body {
     margin-top: 10px;
 }
 .heading h4{
-    color: darkcyan;
+    color: black;
 }
 .cards{
     display: grid;
@@ -378,10 +380,10 @@ body {
     margin: 5px 10px;
 }
 .cards .card .tagline span{
-    color:darkcyan;
+    color: black;
 }
 .cards .card .title{
-    color:darkcyan;
+    color: black;
     font-size: 22px;
     font-weight: bolder;
     margin: 15px 10px;
@@ -400,14 +402,14 @@ body {
     padding: 2px 80px;
     margin: 50px 40px;
     font-size: 18px;
-    background-color:darkcyan;
+    background-color:black;
     color: #fff;
     border-radius: 10px;
     text-align: center;
     /* border:1px solid blue */
 }
 .cards .card a:hover{
-    background-color: rgb(5, 227, 227);
+    background-color: rgb(52, 51, 51);
 }
 @media screen and (max-width: 980px){
     .cards{
@@ -424,7 +426,7 @@ body {
 .footer {
     position: relative;
     top: 100px;
-    background-color: darkcyan;
+    background-color: black;
     padding: 70px 0;
 }
 
@@ -489,7 +491,7 @@ body {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgb(13, 82, 82);
+    background-color: rgb(88, 87, 87);
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
@@ -499,7 +501,7 @@ body {
 }
 
 .footer-col .social-links a:hover {
-    color: darkcyan;
+    color: rgb(88, 87, 87);
     background-color: #ffffff;
 }
 .footer-bottom {
@@ -588,7 +590,7 @@ body {
 footer {
     position: relative;
     top: 100px;
-    background-color: darkcyan;
+    background-color: ;
     padding: 70px 0;
 }
 
@@ -653,7 +655,7 @@ footer {
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: rgb(13, 82, 82);
+    background-color: rgb(88, 87, 87);
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
@@ -663,7 +665,7 @@ footer {
 }
 
 .footer-col .social-links a:hover {
-    color: darkcyan;
+    color: black;
     background-color: #ffffff;
 }
 .footer-bottom {
