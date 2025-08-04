@@ -108,7 +108,7 @@
 
       <div class="about-right">
         <h1>About <span>Me</span></h1>
-        <h2>Exploring India, One Iconic Place at a Time</h2>
+        <h2>Fueling Minds with Focus...</h2>
         <p>Heyy! I’m Ushasri.
 This is a 4player mental strength game I created with passion , where each team has one member representing a core skill: Quick Thinking, Logical Reasoning, Creativity, and Emotional Control. Players face challenges based on their strongest trait, and teams must work together using each mind’s unique power. As someone deeply committed to mental growth, I designed this game to turn focus, self-awareness, and resilience into something fun, challenging, and meaningful. For me, it’s not just a game .it’s a reflection of who I am and what I believe in.        <a href="#contact" class="btn">Read More</a>
       </div>
@@ -123,7 +123,7 @@ This is a 4player mental strength game I created with passion , where each team 
             <div class="heading">
 
                 <h1>Blogs</h1>
-                <h4>Technology, wellness, Nutrition ,student growth , and travel,  — five voices, one journey toward better living.</h4>
+                <h4>A Team-Based Mental Strength Game to Train,Test,and Transform the Way You Think.</h4>
                 
             </div>
             <!-- Blog -->
